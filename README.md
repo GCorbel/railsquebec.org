@@ -1,12 +1,12 @@
-# railsfrance.org [![Build Status](https://secure.travis-ci.org/railsfrance/railsfrance.org.png)](http://travis-ci.org/railsfrance/railsfrance.org)
+# railsquebec.org
 
-[railsfrance.org](http://www.railsfrance.org) is the French Ruby on Rails community website.
+[railsquebec.org](http://www.railsquebec.org) is the French Ruby on Rails community website.
 
-This Git repository is the the current Rails application of railsfrance.org.
+This Git repository is the the current Rails application of railsquebec.org.
 
 ## Installation
 
-railsfrance.org is built on the top of Rails 3.1.
+railsquebec.org is built on the top of Rails 3.1.
 
 ### Prerequisites
 
@@ -16,8 +16,8 @@ railsfrance.org is built on the top of Rails 3.1.
 
 ### Configuring
 
-    git clone git://github.com/railsfrance/railsfrance.org.git
-    cd railsfrance.org
+    git clone git://github.com/GCorbel/railsquebec.org.git
+    cd railsquebec.org
     cp config/database.yml{.sample,}
     cp config/settings/development.yml{.sample,}
     bundle install
@@ -29,18 +29,18 @@ railsfrance.org is built on the top of Rails 3.1.
 
 ## Contributing
 
-If you have any questions, comments, or concerns, please use the Google Group instead of the GitHub issue tracker : http://groups.google.com/group/railsfrance
+If you have any questions, comments, or concerns, please use the Google Group instead of the GitHub issue tracker : http://groups.google.com/group/railsquebec
 
 Contributions are welcome, here how to contribute :
 
 #### 1. Clone the repo
 
-    git clone git://github.com/railsfrance/railsfrance.org.git
+    git clone git://github.com/GCorbel/railsquebec.org.git
 
 
 #### 2. Run the tests
 
-railsfrance.org uses Test:Unit and Capybara for testing.
+railsquebec.org uses Test:Unit and Capybara for testing.
 
     rake test
 
@@ -54,11 +54,11 @@ If your code is tested and fits with the goals of the project, we will enjoy mer
 
 #### Note
 
-If you want your company / project logo to appear on the homepage slideshow please drop us an email to railsfrance.org[at]gmail[dot]com.
+If you want your company / project logo to appear on the homepage slideshow please drop us an email to railsquebec.org[at]gmail[dot]com.
 
 ## Thanks to
 
-[Laurent Noblet](https://twitter.com/#!/LaurentNoblet) for the design and everyone on this [list](http://github.com/railsfrance/railsfrance.org/contributors) !
+[Laurent Noblet](https://twitter.com/#!/LaurentNoblet) for the design and everyone on this [list](https://github.com/GCorbel/railsquebec.org/contributors) !
 
 ## License
 
