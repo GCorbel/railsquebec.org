@@ -1,6 +1,6 @@
 # railsquebec.org
 
-[railsquebec.org](http://www.railsquebec.org) is the French Ruby on Rails community website.
+[railsquebec.org](http://www.railsquebec.org) is the Quebec Ruby on Rails community website.
 
 This Git repository is the the current Rails application of railsquebec.org.
 
