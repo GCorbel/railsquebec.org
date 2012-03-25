@@ -14,6 +14,16 @@ class UserTest < ActiveSupport::TestCase
     assert @user.valid?
   end
   
+  test 'should be valid with quebecer postal code' do
+    @user.postal_code = 'a0b1c2'
+    assert @user.valid?
+  end
+  
+  test 'should be valid with french postal code' do
+    @user.postal_code = (0..4).map{ rand(9) }.join
+    assert @user.valid?
+  end
+  
   test 'should not be valid with bad postal code' do
     @user.postal_code = (0..6).map{ ('a'..'z').to_a[rand(26)] }.join
     assert @user.invalid?
