@@ -37,11 +37,10 @@ if ($('#map_canvas').length)
   # Callback method executed when map scripts are loaded
   window.initialize = ->
     directionsDisplay = new google.maps.DirectionsRenderer()
-    zoom = 6
-    zoom = 5 if $('#map_canvas').hasClass('home')
+    zoom = 5
     map = new google.maps.Map(document.getElementById("map_canvas"), {
       zoom: zoom,
-      center: (new google.maps.LatLng(46.9,1.56)),
+      center: (new google.maps.LatLng(54,-69)),
       disableDefaultUI: true,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     })
