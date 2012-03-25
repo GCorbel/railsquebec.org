@@ -115,6 +115,13 @@
     background: image-url('home/cisors.png') no-repeat;
   }
   a{
+    color: #99100E;
+  }
+  a:hover {
+    color: #78665D;
+    text-decoration: underline;
+  }
+  a#linkToRubyOnRails{
     vertical-align:top;
     display:inline-block;
     width:180px;

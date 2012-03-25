@@ -29,12 +29,16 @@
           %br
           à la communauté
   #homeHgroup
-    = link_to "Rails", "http://rubyonrails.org/","data-skip-pjax" => true, :target => "_blank"
+    = link_to "Rails", "http://rubyonrails.org/","data-skip-pjax" => true, :target => "_blank", :id => "linkToRubyOnRails"
     %div
       %h1
         Bienvenue sur le portail québecois de la communauté Ruby on Rails
       %p
         Vous trouverez ici toutes les ressources nécessaires pour débuter avec Ruby on Rails et partager avec sa communauté québecoise.
+      %p
+        Ce site est une copie de
+        = link_to "RailsFrance.org", 'http://railsfrance.org',"data-skip-pjax" => true, :target => "_blank"
+        adapté pour la communauté québecoise.
   #homeContent
     #homeEvents.homeContent
       %h2
