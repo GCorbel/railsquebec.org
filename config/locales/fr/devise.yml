@@ -33,6 +33,6 @@ fr:
       destroyed: "Au revoir! Votre compte a été annulé avec succès. Nous espérons vous revoir bientôt :)"
     mailer:
       confirmation_instructions:
-        subject: "Railsfrance.org - Confirmation de votre compte"
+        subject: "RailsQuebec.org - Confirmation de votre compte"
       reset_password_instructions:
-        subject: "Railsfrance.org - Changement de mot de passe"
+        subject: "RailsQuebec.org - Changement de mot de passe"

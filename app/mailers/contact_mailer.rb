@@ -6,15 +6,15 @@ class ContactMailer < ActionMailer::Base
 
   def contact contact_form
     @contact = contact_form
-    @mail_title = subject = "Railsfrance.org - What's up dude ? Message from #{@contact.email}"
+    @mail_title = subject = "RailsQuebec.org - What's up dude ? Message from #{@contact.email}"
 
-    mail(to: "railsfrance.org@gmail.com",
+    mail(to: "railsquebec.org@gmail.com",
     subject: subject)
   end
 
   def confirm_job job
     @job = job
-    @mail_title = subject = "Railsfrance.org - Confirmation de votre annonce d'emploi"
+    @mail_title = subject = "RailsQuebec.org - Confirmation de votre annonce d'emploi"
 
     mail(to: job.email,
     subject: subject)
@@ -22,7 +22,7 @@ class ContactMailer < ActionMailer::Base
 
   def valid_job job
     @job = job
-    @mail_title = subject = "Railsfrance.org - Validation de votre annonce d'emploi"
+    @mail_title = subject = "RailsQuebec.org - Validation de votre annonce d'emploi"
     mail(to: job.email,
     subject: subject)
   end

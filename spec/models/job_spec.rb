@@ -16,10 +16,10 @@ describe Job do
     it { should validate_presence_of(:description) }
     it { should validate_presence_of(:postal_code) }
     #url
-    it { should validate_format_of(:url).with('http://railsfrance.org') }
-    it { should validate_format_of(:url).with('http://www.railsfrance.org') }
-    it { should validate_format_of(:url).with('https://railsfrance.org') }
-    it { should validate_format_of(:url).with('https://www.railsfrance.org') }
+    it { should validate_format_of(:url).with('http://railsquebec.org') }
+    it { should validate_format_of(:url).with('http://www.railsquebec.org') }
+    it { should validate_format_of(:url).with('https://railsquebec.org') }
+    it { should validate_format_of(:url).with('https://www.railsquebec.org') }
     #email
     it { should validate_presence_of(:email) }
     it { should validate_format_of(:email).with('p@o.fr') }

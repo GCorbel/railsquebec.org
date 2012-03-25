@@ -1,5 +1,5 @@
 atom_feed :language => 'fr' do |feed|
-  feed.title "RailsFrance » Evénéments"
+  feed.title "RailsQuebec » Evénéments"
   feed.updated @events.first.created_at
 
   @events.each do |item|

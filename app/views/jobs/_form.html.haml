@@ -4,7 +4,7 @@
     .jobFormLeft
       = f.input :company, :autofocus => "autofocus"
       = f.input :email, :label => "Email <span style='font-size:11px;'>(sera utilisé pour gérer votre annonce et vous faire contacter par un candidat)</span>".html_safe unless action_name == 'edit'
-      = f.input :url, :placeholder => "http://www.railsfrance.org"
+      = f.input :url, :placeholder => "http://www.railsquebec.org"
       #jobFormType
         %label
           Type de contrat

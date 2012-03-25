@@ -69,7 +69,7 @@ RailsQuebec::Application.configure do
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
     :port                 => 587,
-    :domain               => 'www.railsfrance.org',
+    :domain               => 'www.railsquebec.org',
     :user_name            => Settings.gmail.username,
     :password             => Settings.gmail.password,
     :authentication       => 'plain',

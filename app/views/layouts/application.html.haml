@@ -2,7 +2,7 @@
 - ie_html :class => 'no-js', :lang => 'fr' do
   %head
     %meta{:charset => "utf-8"}
-    = display_meta_tags :site => "Railsfrance.org", :reverse => true
+    = display_meta_tags :site => "RailsQuebec.org", :reverse => true
     - if @feeds
       - @feeds.each do |link, title|
         = auto_discovery_link_tag(:atom, link, { :title => title })
@@ -15,7 +15,7 @@
         = yield
         #addContentBug.center960
           Vous avez envie d'ajouter du contenu ? Vous avez trouvé une erreur ? Merci 
-          = link_to "d'ouvrir un ticket sur github", "https://github.com/railsfrance/railsfrance.org/issues/new"
+          = link_to "d'ouvrir un ticket sur github", "https://github.com/GCorbel/railsquebec.org/issues/new"
           !
     = render 'layouts/footer'
     = render 'layouts/flash', f: flash

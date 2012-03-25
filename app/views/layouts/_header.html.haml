@@ -2,7 +2,7 @@
   %nav#primaryNav
     %ul
       %li
-        = link_to @meta_tags[:title], root_path, :id => "homeRailsFrance", "data-skip-pjax" => true
+        = link_to @meta_tags[:title], root_path, :id => "homeRailsQuebec", "data-skip-pjax" => true
       %li
         = link_to "QUESTIONS", questions_path, "data-skip-pjax" => true, :class => class_for_tab(:questions)
       %li
@@ -20,7 +20,7 @@
           = link_to "DECONNEXION", destroy_user_session_path, :method => :delete, "data-skip-pjax" => "true"
       %li
         - if user_signed_in?
-          = link_to "MON COMPTE", edit_user_registration_path, :class => "connectionButton connected", "data-skip-pjax" => true, :title => "Accès à votre profil Rails France"
+          = link_to "MON COMPTE", edit_user_registration_path, :class => "connectionButton connected", "data-skip-pjax" => true, :title => "Accès à votre profil Rails Québec"
         - else
-          = link_to "CONNEXION", new_user_session_path, :class => "connectionButton", "data-skip-pjax" => true, :title => "Connexion à votre compte Rails France"
+          = link_to "CONNEXION", new_user_session_path, :class => "connectionButton", "data-skip-pjax" => true, :title => "Connexion à votre compte Rails Québec"
 

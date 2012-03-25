@@ -1,5 +1,5 @@
 atom_feed :language => 'fr' do |feed|
-  feed.title "RailsFrance > Jobs"
+  feed.title "RailsQuebec > Jobs"
   if @jobs.any?
     feed.updated @jobs.first.created_at
 
