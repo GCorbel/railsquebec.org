@@ -1,4 +1,4 @@
-RailsFrance::Application.routes.draw do
+RailsQuebec::Application.routes.draw do
   filter :pagination
 
   # Root
